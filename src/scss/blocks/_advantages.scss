@@ -13,9 +13,10 @@
     margin-top: 65px;
     display: flex;
     justify-content: space-around;
+		flex-wrap: wrap;
   }
   &__icon {
-    flex-basis: 239px;
+    max-width: 239px;
     img {
       display: block;
       margin: 0 auto;

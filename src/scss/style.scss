@@ -1,6 +1,8 @@
 @import "_font";
 @import "base/variables";
-@import "_global";
-@import "blocks/_promo";
-@import "blocks/_header";
+@import "base/mixins";
+@import "base/global";
+@import "blocks/promo";
+@import "blocks/header";
 @import "blocks/advantages";
+@import "base/media"
