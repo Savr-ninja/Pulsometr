@@ -1,0 +1,23 @@
+.consultation {
+  padding: 100px 0 92px;
+  background: url("../../img/bg/trainers-bg.jpeg") center center/cover no-repeat;
+  &__title {
+		margin: 0;
+    max-width: 769px;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $white-color;
+  }
+  &__descr {
+		margin: 0;
+    margin-top: 80px;
+    max-width: 396px;
+    color: $white-color;
+    font-size: 20px;
+    font-weight: 400;
+  }
+	&__btn{
+		padding: 17px 41px;
+	}
+}
