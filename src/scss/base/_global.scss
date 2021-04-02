@@ -17,6 +17,8 @@ body {
   background-color: $red-color;
   text-align: center;
   text-transform: uppercase;
+	color: $white-color;
+	font-weight: 500;
   &:hover {
     background-color: rgba($red-color, $alpha: 0.8);
   }
@@ -26,11 +28,20 @@ body {
 }
 
 .btn-main {
+	display: inline-block;
   font-size: 16px;
   font-weight: 400;
   font-style: normal;
   color: $white-color;
-  padding: 15px 41px 13px;
   text-align: center;
   text-transform: uppercase;
+	font-size: 16px;
+	background-color: $red-color;
+	border-radius: 5px;
+	&:hover {
+    background-color: rgba($red-color, $alpha: 0.8);
+  }
+  &:focus {
+    background-color: rgba($red-color, 0.7);
+  }
 }

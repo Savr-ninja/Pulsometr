@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pulsometr</title>
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.min.css" />
@@ -29,27 +29,21 @@
         <div class="promo__inner">
           <h1 class="promo__title">Подбор пульсометра</h1>
           <h2 class="promo__sub-title">с учётом Вашего уровня подготовки</h2>
-					<div class="promo__icons">
-						<div class="promo__icon">
-							<img src="img/icons/timer-time.svg" alt="timer" />
-							<div class="promo__icon-text">
-								Время подбора: 10 минут
-							</div>
-						</div>
-						<div class="promo__icon">
-							<img src="img/icons/baggage.svg" alt="baggage" />
-							<div class="promo__icon-text">
-								Бесплатная доставка
-							</div> 
-						</div>
-						<div class="promo__icon">
-							<img src="img/icons/messages.svg" alt="messages" />
-							<div class="promo__icon-text">
-								Ответим на все вопросы
-							</div> 
-						</div>
-					</div>
-          <button class="btn-main btn">заказать кОНСУЛЬТАЦИЮ</button>
+          <div class="promo__icons">
+            <div class="promo__icon">
+              <img src="img/icons/timer-time.svg" alt="timer" />
+              <div class="promo__icon-text">Время подбора: 10 минут</div>
+            </div>
+            <div class="promo__icon">
+              <img src="img/icons/baggage.svg" alt="baggage" />
+              <div class="promo__icon-text">Бесплатная доставка</div>
+            </div>
+            <div class="promo__icon">
+              <img src="img/icons/messages.svg" alt="messages" />
+              <div class="promo__icon-text">Ответим на все вопросы</div>
+            </div>
+          </div>
+          <button class="btn-main promo__btn">заказать кОНСУЛЬТАЦИЮ</button>
           <div class="promo__link">
             или
             <a href="#">ПЕРЕЙТИ В КАТАЛОГ</a>
@@ -57,34 +51,55 @@
         </div>
       </div>
     </div>
-		<section class="advantages">
-			<div class="container">
-				<h2 class="advantages__header">НАШИ ПРЕИМУЩЕСТВА</h2>
-				<div class="advantages__icons">
-					<div class="advantages__icon">
-						<img src="img/icons/cup.png" alt="cup">
-						<div class="advantages__title">Делимся опытом</div>
-						<div class="advantages__descr">Наши сотрудники всегда готовы поделиться своим опытом, 
-							так как сами бегают полумарафоны, переплыли Босфор, готовятся к соревнованиям по триатлону!</div>
-					</div>
-					<div class="advantages__icon">
-						<img src="img/icons/heart.png" alt="heart">
-						<div class="advantages__title">Заботимся о здоровье</div>
-						<div class="advantages__descr">Мы работаем для того, 
-							чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и Вашим близким!
-							</div>
-					</div>
-					<div class="advantages__icon">
-						<img src="img/icons/shoe.png" alt="shoes">
-						<div class="advantages__title">Учим бегать</div>
-						<div class="advantages__descr">Помогаем с обучением 
-							правильной технике бега! 
-							Дружим с крупнейшей школой бега в России - <span>I LOVE RUNNING.</span> 
-							</div>
-					</div>
-				</div>
-			</div>
-		</section>
+    <section class="advantages">
+      <div class="container">
+        <h2 class="advantages__header">НАШИ ПРЕИМУЩЕСТВА</h2>
+        <div class="advantages__icons">
+          <div class="advantages__icon">
+            <img src="img/icons/cup.png" alt="cup" />
+            <div class="advantages__title">Делимся опытом</div>
+            <div class="advantages__descr">
+              Наши сотрудники всегда готовы поделиться своим опытом, так как
+              сами бегают полумарафоны, переплыли Босфор, готовятся к
+              соревнованиям по триатлону!
+            </div>
+          </div>
+          <div class="advantages__icon">
+            <img src="img/icons/heart.png" alt="heart" />
+            <div class="advantages__title">Заботимся о здоровье</div>
+            <div class="advantages__descr">
+              Мы работаем для того, чтобы Ваши занятия спортом шли на пользу
+              Вашему здоровью и были в радость Вам и Вашим близким!
+            </div>
+          </div>
+          <div class="advantages__icon">
+            <img src="img/icons/shoe.png" alt="shoes" />
+            <div class="advantages__title">Учим бегать</div>
+            <div class="advantages__descr">
+              Помогаем с обучением правильной технике бега! Дружим с крупнейшей
+              школой бега в России - <span>I LOVE RUNNING.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="consultation">
+      <div class="container">
+        <h2 class="consultation__title">
+          Получите бесплатную консультацию 
+          по подбору пульсометра
+        </h2>
+        <div class="consultation__descr">
+          Просто заполните форму заявки и мы перезвоним вам в течении 10 минут
+        </div>
+				<form action="#" class="feed-form">
+					<input required name="name" type="text" placeholder="Ваше имя">
+					<input required name="phone"type="number" placeholder="Ваш телефон">
+					<input required name="email" type="email" placeholder="Ваш E-mail">
+					<button class="btn-main feed-form__btn">заказать консультацию </button>
+				</form>
+      </div>
+    </section>
     <script src="js/main.min.js"></script>
   </body>
 </html>
