@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pulsometr</title>
     <link rel="stylesheet" href="css/normalize.css" />
+		<link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/style.min.css" />
   </head>
   <body>
@@ -86,21 +87,42 @@
     <section class="consultation">
       <div class="container">
         <h2 class="consultation__title">
-          Получите бесплатную консультацию 
-          по подбору пульсометра
+          Получите бесплатную консультацию по подбору пульсометра
         </h2>
         <div class="consultation__descr">
           Просто заполните форму заявки и мы перезвоним вам в течении 10 минут
         </div>
-				<form action="#" class="feed-form">
-					<input required name="name" type="text" placeholder="Ваше имя">
-					<input required name="phone"type="number" placeholder="Ваш телефон">
-					<input required name="email" type="email" placeholder="Ваш E-mail">
-					<button class="btn-main feed-form__btn">заказать консультацию </button>
-				</form>
+        <form action="#" class="feed-form">
+          <input required name="name" type="text" placeholder="Ваше имя" />
+          <input
+            required
+            name="phone"
+            type="number"
+            placeholder="Ваш телефон"
+          />
+          <input required name="email" type="email" placeholder="Ваш E-mail" />
+          <button class="btn-main feed-form__btn">заказать консультацию</button>
+        </form>
       </div>
     </section>
-		<section class="carousel"> </section>
-    <script src="js/main.min.js"></script>
+    <section class="carousel">
+      <div class="container">
+        <div class="carousel__inner">
+          <div>
+            <img src="img/main-watch.jpeg" alt="watch" />
+          </div>
+          <div>
+            <img src="img/apple-watch.jpg" alt="watch" />
+          </div>
+          <div>
+            <img src="img/watch.jpg" alt="watch" />
+          </div>
+        </div>
+      </div>
+    </section>
+		</script>
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/slick.min.js"></script>
+		<script src="js/main.min.js"></script>
   </body>
 </html>
