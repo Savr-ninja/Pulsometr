@@ -4,9 +4,9 @@ $(document).ready(function () {
     speed: 900,
     slidesToShow: 1,
     prevArrow:
-      '<button type="button" class="slick-prev"> <img src="../img/slider/arrow-prev.svg?raw=true"> </button>',
+      '<button type="button" class="slick-prev"> <img src="img/slider/arrow-prev.svg?raw=true"> </button>',
     nextArrow:
-      '<button type="button" class="slick-next"><img src="../img/slider/arrow-next.svg?raw=true"></button>',
+      '<button type="button" class="slick-next"><img src="img/slider/arrow-next.svg?raw=true"></button>',
     responsive: [
       {
         breakpoint: 992,
