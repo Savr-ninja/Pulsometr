@@ -219,7 +219,6 @@
 	}
 	.consultation{
 		&__descr{
-			max-width: 200px;
 			font-size: 13px;
 		}
 		&__title{
@@ -279,7 +278,7 @@
 		}
 	}
 }
-@media screen and (max-width:320px){
+@media screen and (max-width:319px){
 	.catalog{
 		&__tab{
 			flex-basis: 70px;
