@@ -9,7 +9,7 @@ $(document).ready(function () {
       '<button type="button" class="slick-next"><img src="img/slider/arrow-next.svg?raw=true"></button>',
     responsive: [
       {
-        breakpoint: 992,
+        breakpoint: 1025,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,

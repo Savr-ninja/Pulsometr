@@ -27,6 +27,8 @@
 }
 
 @media screen and (max-width:992px){
+
+	}
 	.header{
 		justify-content: space-around;
 	}
@@ -54,7 +56,7 @@
 	}
 	.btn{
 		&:hover {
-			background-color: rgba($red-color, $alpha: 1);
+			background-color: rgba($red-color, 1);
 		}
 		&:focus {
 			background-color: rgba($red-color, 1);
@@ -85,7 +87,7 @@
 			object-fit: cover;
 		}
 	}
-}
+
 
 @media screen and (max-width:768px){
 	.header{
@@ -170,6 +172,19 @@
 	.catalog{
 		&__content{
 			margin-left: 10%;
+			&-item{
+				&__descr {
+					margin-top: 16px;
+					font-size: 12px;
+					font-weight: 300;
+					text-align: center;
+					color: $black-color;
+					max-width: 200px;
+				}
+				li{
+					font-size: 12px;
+				}
+			}
 		}
 	}
 }
@@ -238,6 +253,7 @@
 		&__content{
 			margin-top: 40px;
 			margin-right: 0;
+			justify-content: center;
 		}
 		&__tabs{
 			margin-right: 0;
@@ -260,6 +276,27 @@
 			margin: 0 auto;
 			width: 280px;
 			object-fit: cover;
+		}
+	}
+}
+@media screen and (max-width:320px){
+	.catalog{
+		&__tab{
+			flex-basis: 70px;
+			font-size: 9px;
+		}
+		&-item{
+			&__sub-title{
+				font-size: 14px;
+			}
+			li{
+				font-size: 10px;
+				margin-bottom: 40px;
+			}
+			&__descr{
+			font-size: 10px;
+			max-width: 180px;
+			}
 		}
 	}
 }
