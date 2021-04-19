@@ -62,6 +62,7 @@
     overflow: hidden;
     margin-bottom: 20px;
     margin-right: 20px;
+		transition: 0.7s all ease-in-out;
     &__img {
       display: block;
       margin: 0 auto;
@@ -77,7 +78,7 @@
     }
     &__descr {
       margin-top: 16px;
-      font-size: 14px;
+      font-size: 13px;
       font-weight: 300;
       text-align: center;
       color: $black-color;
@@ -125,10 +126,11 @@
       width: 50%;
       margin-right: 0;
       transform: translateX(-100%);
-      transition: 0.5s all ease-in-out;
+      transition: 0.7s all ease-in-out;
       &--active {
         transform: translateX(0%);
         margin-right: 30px;
+				transition: 0.7s all ease-in-out;
       }
     }
     &__list {
@@ -138,7 +140,7 @@
       transform: translateX(0%);
       padding-right: 20px;
       padding-left: 19px;
-      transition: 0.5s all ease-in-out;
+      transition: 0.7s all ease-in-out;
       li {
         position: relative;
         color: #555555;
@@ -173,6 +175,7 @@
       &--active {
         transform: translateX(-100%);
         margin-left: 0;
+				transition: 0.7s all ease-in-out;
       }
     }
   }
