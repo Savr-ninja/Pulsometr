@@ -208,6 +208,8 @@
 			font-size: 13px;
 		}
 		&__title{
+			max-width: 300px;
+			line-height: 1.2;
 			font-size: 16px;
 		}
 	}
@@ -223,6 +225,16 @@
 		}
 	}
 	.catalog{
+		&-item{
+			&__descr {
+				margin-top: 16px;
+				font-size: 14px;
+				font-weight: 300;
+				text-align: center;
+				color: $black-color;
+				max-width: 200px;
+			}
+		}
 		&__content{
 			margin-top: 40px;
 			margin-right: 0;
@@ -246,7 +258,7 @@
 	.slick-slide{
 		img{
 			margin: 0 auto;
-			width: 260px;
+			width: 280px;
 			object-fit: cover;
 		}
 	}

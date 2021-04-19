@@ -78,10 +78,11 @@
     }
     &__descr {
       margin-top: 16px;
-      font-size: 13px;
+      font-size: 14px;
       font-weight: 300;
       text-align: center;
       color: $black-color;
+			max-width: 250px;
     }
     &__link {
       display: block;
@@ -120,7 +121,7 @@
     }
     &__wrapper {
       display: flex;
-      width: calc(200% + 60px);
+      width: calc(200% + 40px);
     }
     &__content {
       width: 50%;
@@ -129,14 +130,14 @@
       transition: 0.7s all ease-in-out;
       &--active {
         transform: translateX(0%);
-        margin-right: 30px;
+        margin-right: 20px;
 				transition: 0.7s all ease-in-out;
       }
     }
     &__list {
       position: relative;
       width: 50%;
-      margin-left: 30px;
+      margin-left: 20px;
       transform: translateX(0%);
       padding-right: 20px;
       padding-left: 19px;
