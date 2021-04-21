@@ -1,9 +1,4 @@
 @media screen and (max-width:1200px){
-	.promo{
-		&__inner{
-			align-items: center;
-		}
-	}
 	.consultation{
 		padding: 60px 0 40px;
 		&__title{
@@ -27,8 +22,6 @@
 }
 
 @media screen and (max-width:992px){
-
-	}
 	.header{
 		justify-content: space-around;
 	}
@@ -88,6 +81,7 @@
 		}
 	}
 
+	}
 
 @media screen and (max-width:768px){
 	.header{
