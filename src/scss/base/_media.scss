@@ -19,7 +19,7 @@
       object-fit: cover;
     }
   }
-	.comments {
+  .comments {
     &__descr,
     &__author,
     &__character {
@@ -272,20 +272,38 @@
       font-weight: 500;
     }
   }
-	a:hover, a:focus, a:link, a:visited {
-		background-color:transparent;
-	}
-	.btn:hover, .btn:focus{
-		background-color: $red-color;
-		outline: none;
-	}
-	.btn-main:hover, .btn-main:focus{
-		background-color: $red-color;
-		outline: none;
-	}
+  a:hover,
+  a:focus,
+  a:link,
+  a:visited {
+    background-color: transparent;
+  }
+  .btn:hover,
+  .btn:focus {
+    background-color: $red-color;
+    outline: none;
+  }
+  .btn-main:hover,
+  .btn-main:focus {
+    background-color: $red-color;
+    outline: none;
+  }
+  .footer {
+    &__info {
+      padding: 30px;
+      left: 40%;
+    }
+    &__address {
+      font-size: 16px;
+    }
+    &__tel {
+      font-size: 16px;
+      font-weight: 500;
+    }
+  }
 }
 @media screen and (max-width: 577px) {
-	.header {
+  .header {
     &__logo {
       width: 190px;
     }
@@ -315,7 +333,7 @@
   }
   .consultation {
     &__descr {
-			max-width: 300px;
+      max-width: 300px;
       font-size: 13px;
     }
     &__title {
@@ -354,7 +372,7 @@
     &__tabs {
       margin-right: 0;
     }
-		&__tab {
+    &__tab {
       display: flex;
       font-size: 10px;
       flex-basis: 120px;
@@ -394,10 +412,29 @@
       line-height: 1.5;
     }
   }
-
+  .footer {
+    &__info {
+			display: none;
+    }
+    &__address {
+      font-size: 14px;
+			margin-bottom: 20px;
+    }
+    &__tel {
+      font-size: 14px;
+			margin-bottom: 20px;
+    }
+    &__social-icon {
+      width: 35px;
+      height: 35px;
+      img {
+        height: 18px;
+      }
+    }
+  }
 }
 @media screen and (max-width: 430px) {
-	.catalog {
+  .catalog {
     &__tab {
       display: flex;
       font-size: 9px;
@@ -429,9 +466,9 @@
       }
     }
   }
-	.comments{
-		&__descr{
-			max-width: 200px;
-		}
-	}
+  .comments {
+    &__descr {
+      max-width: 200px;
+    }
+  }
 }
