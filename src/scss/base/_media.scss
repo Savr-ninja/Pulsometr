@@ -274,7 +274,7 @@
   }
 }
 @media screen and (max-width: 577px) {
-  .header {
+	.header {
     &__logo {
       width: 190px;
     }
@@ -343,10 +343,10 @@
     &__tabs {
       margin-right: 0;
     }
-    &__tab {
+		&__tab {
       display: flex;
       font-size: 10px;
-      flex-basis: 85px;
+      flex-basis: 120px;
       line-height: 1.2;
       align-items: center;
       justify-content: center;
@@ -383,13 +383,14 @@
       line-height: 1.5;
     }
   }
+
 }
-@media screen and (min-width: 425px) {
-  .catalog {
+@media screen and (max-width: 430px) {
+	.catalog {
     &__tab {
       display: flex;
-      font-size: 10px;
-      flex-basis: 120px;
+      font-size: 9px;
+      flex-basis: 85px;
       line-height: 1.2;
       align-items: center;
       justify-content: center;
