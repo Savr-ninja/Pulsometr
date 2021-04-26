@@ -272,6 +272,17 @@
       font-weight: 500;
     }
   }
+	a:hover, a:focus, a:link, a:visited {
+		background-color:transparent;
+	}
+	.btn:hover, .btn:focus{
+		background-color: $red-color;
+		outline: none;
+	}
+	.btn-main:hover, .btn-main:focus{
+		background-color: $red-color;
+		outline: none;
+	}
 }
 @media screen and (max-width: 577px) {
 	.header {
