@@ -448,6 +448,35 @@
       margin: 5px;
     }
   }
+  .modal{
+	  padding: 20px;
+	  &__sub-title {
+		font-size: 14px;
+	  }
+	  &__descr {
+		font-size: 12px;
+		max-width: 180px;
+		margin: 0 auto;
+		margin-top: 11px;
+	  }
+	  .feed-form{
+		  width: 200px;
+		  input{
+			  font-size: 12px;
+			  width: 180px;
+		  }
+		  &__btn{
+			  width: 180px;
+			  margin: 0 auto;
+			  margin-top: 15px;
+			  font-size: 12px;
+			  height: 45px;
+		  }
+	  }
+	  &__close{
+		  right: -35px;
+	  }
+  }
 }
 @media screen and (max-width: 319px) {
   .catalog {
@@ -473,5 +502,16 @@
     &__descr {
       max-width: 200px;
     }
+  }
+  .modal{
+	  .feed-form{
+		  width: 160px;
+		  input{
+			  width: 140px;
+		  }
+		&__btn{
+			width: 140px;
+		}
+	  }
   }
 }
