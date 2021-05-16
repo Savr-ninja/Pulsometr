@@ -460,23 +460,39 @@
 		margin-top: 11px;
 	  }
 	  .feed-form{
-		  width: 200px;
+		  width: 240px;
 		  input{
 			  font-size: 12px;
-			  width: 180px;
+			  width: 220px;
 		  }
 		  &__btn{
-			  width: 180px;
+			  width: 220px;
 			  margin: 0 auto;
 			  margin-top: 15px;
 			  font-size: 12px;
 			  height: 45px;
 		  }
 	  }
-	  &__close{
-		  right: -35px;
-	  }
+	 
   }
+}
+@media screen and (max-width: 380px){
+	.modal{
+
+		.feed-form{
+			width: 200px;
+			input{
+				width: 180px;
+			}
+			&__btn{
+				width: 180px;
+			}
+		}
+		&__close{
+			right: -35px;
+		}
+	}
+
 }
 @media screen and (max-width: 319px) {
   .catalog {
