@@ -26,7 +26,7 @@
 					<a href="tel:+7499922-89-74" class="header__phone">
 						+7 (499) 922-89-74
 					</a>
-					<button class="header__btn btn">заказать звонок</button>
+					<button data-modal="consultation" class="header__btn btn">заказать звонок</button>
 				</div>
 			</header>
 			<div class="promo__inner">
@@ -46,7 +46,7 @@
 						<div class="promo__icon-text">Ответим на все вопросы</div>
 					</div>
 				</div>
-				<button class="btn-main promo__btn">заказать кОНСУЛЬТАЦИЮ</button>
+				<button data-modal="consultation" class="btn-main promo__btn">заказать кОНСУЛЬТАЦИЮ</button>
 				<div class="promo__link">
 					или
 					<a href="#catalog">ПЕРЕЙТИ В КАТАЛОГ</a>
@@ -160,7 +160,7 @@
 							</div>
 							<div class="catalog-item__price">4 500 руб.</div>
 						</div>
-						<button class="btn btn--mini">КУПИТЬ</button>
+						<button data-modal="order" class="btn btn--mini">КУПИТЬ</button>
 					</div>
 				</div>
 				<div class="catalog-item">
@@ -191,7 +191,7 @@
 							</div>
 							<div class="catalog-item__price">6 641 руб.</div>
 						</div>
-						<button class="btn btn--mini">КУПИТЬ</button>
+						<button data-modal="order" class="btn btn--mini">КУПИТЬ</button>
 					</div>
 				</div>
 				<div class="catalog-item">
@@ -222,7 +222,7 @@
 							</div>
 							<div class="catalog-item__price">7 021 руб.</div>
 						</div>
-						<button class="btn btn--mini">КУПИТЬ</button>
+						<button data-modal="order" class="btn btn--mini">КУПИТЬ</button>
 					</div>
 				</div>
 				<div class="catalog-item">
@@ -253,7 +253,7 @@
 							</div>
 							<div class="catalog-item__price">4 500 руб.</div>
 						</div>
-						<button class="btn btn--mini">КУПИТЬ</button>
+						<button data-modal="order" class="btn btn--mini">КУПИТЬ</button>
 					</div>
 				</div>
 				<div class="catalog-item">
@@ -284,7 +284,7 @@
 							</div>
 							<div class="catalog-item__price">6 641 руб.</div>
 						</div>
-						<button class="btn btn--mini">КУПИТЬ</button>
+						<button data-modal="order" class="btn btn--mini">КУПИТЬ</button>
 					</div>
 				</div>
 				<div class="catalog-item">
@@ -315,7 +315,7 @@
 							</div>
 							<div class="catalog-item__price">7 021 руб.</div>
 						</div>
-						<button class="btn btn--mini">КУПИТЬ</button>
+						<button data-modal="order" class="btn btn--mini">КУПИТЬ</button>
 					</div>
 				</div>
 			</div>
@@ -348,7 +348,7 @@
 							</div>
 							<div class="catalog-item__price">4 500 руб.</div>
 						</div>
-						<button class="btn btn--mini">КУПИТЬ</button>
+						<button data-modal="order" class="btn btn--mini">КУПИТЬ</button>
 					</div>
 				</div>
 				<div class="catalog-item">
@@ -379,7 +379,7 @@
 							</div>
 							<div class="catalog-item__price">6 641 руб.</div>
 						</div>
-						<button class="btn btn--mini">КУПИТЬ</button>
+						<button data-modal="order" class="btn btn--mini">КУПИТЬ</button>
 					</div>
 				</div>
 				<div class="catalog-item">
@@ -410,7 +410,7 @@
 							</div>
 							<div class="catalog-item__price">7 021 руб.</div>
 						</div>
-						<button class="btn btn--mini">КУПИТЬ</button>
+						<button data-modal="order" class="btn btn--mini">КУПИТЬ</button>
 					</div>
 				</div>
 			</div>
@@ -443,7 +443,7 @@
 							</div>
 							<div class="catalog-item__price">7 021 руб.</div>
 						</div>
-						<button class="btn btn--mini">КУПИТЬ</button>
+						<button data-modal="order" class="btn btn--mini">КУПИТЬ</button>
 					</div>
 				</div>
 			</div>
@@ -539,6 +539,54 @@
 			</div>
 		</div>
 	</footer>
+	<div class="overlay">
+		<div class="modal" id="consultation">
+			<div class="modal__close">
+				&times;
+			</div>
+			<div class="modal__sub-title">
+				Просто заполните форму заявки
+			</div>
+			<div class="modal__descr">
+				и мы перезвоним вам в течении 10 минут
+			</div>
+			<form action="#" class="feed-form feed-form--mt25">
+				<input required name="name" type="text" placeholder="Ваше имя" />
+				<input required name="phone" type="number" placeholder="Ваш телефон" />
+				<input required name="email" type="email" placeholder="Ваш E-mail" />
+				<button class="btn-main feed-form__btn">заказать консультацию</button>
+			</form>
+		</div>
+		<div class="modal" id="order">
+			<div class="modal__close">
+				&times;
+			</div>
+			<div class="modal__sub-title">
+				Ваш заказ:
+			</div>
+			<div class="modal__descr">
+				Пульсометр Polar FT1
+			</div>
+			<form action="#" class="feed-form feed-form--mt25">
+				<input required name="name" type="text" placeholder="Ваше имя" />
+				<input required name="phone" type="number" placeholder="Ваш телефон" />
+				<input required name="email" type="email" placeholder="Ваш E-mail" />
+				<button class="btn-main feed-form__btn">Купить</button>
+			</form>
+		</div>
+		<div class="modal modal--gratitude" id="gratitude">
+			<div class="modal__close">
+				&times;
+			</div>
+			<div class="modal__sub-title">
+				Спасибо за вашу заявку!
+			</div>
+			<div class="modal__descr">
+				Наш менеджер свяжется с вами 
+				в ближайшее время!
+			</div>
+		</div>
+	</div>
 	</script>
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 	<script src="js/slick.min.js"></script>
