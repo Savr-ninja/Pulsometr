@@ -20,4 +20,15 @@
 	&__btn{
 		padding: 17px 41px;
 	}
+	.feed-form{
+		.error{
+			border: 1px solid red;
+		}
+		label.error{
+			border: none;
+			text-align: center;
+			margin: 15px 0;
+			color: $white-color;
+		}
+	}
 }

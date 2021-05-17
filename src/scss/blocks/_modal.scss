@@ -42,6 +42,14 @@
       max-width: 213px;
     }
   }
+  .error{
+	  border: 1px solid red;
+  }
+  label.error{
+	  border: none;
+	  text-align: center;
+	  margin: 15px 0;
+  }
 }
 
 #consultation,
