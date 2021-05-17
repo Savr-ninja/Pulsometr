@@ -65,3 +65,7 @@ $(function () {
 			$('.overlay, #order').fadeIn('.5s');
 		});
 	});
+	$('#consultation-form').validate();
+	$('#consultation form ').validate();
+	$('#order form ').validate();
+
